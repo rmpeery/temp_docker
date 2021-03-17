@@ -1,5 +1,5 @@
-
-FROM cyversevice/rstudio-verse:3.6.3
+# need a bulkier start point for R like rocker/tidyverse:3.6.3
+FROM rocker/tidyverse:3.6.3
 # Change to root user to install linux system dependencies
 #USER root
 # install some linux packages
